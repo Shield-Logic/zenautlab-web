@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeNaut Lab | Fleet Intelligence</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #0F0F0F;
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+        .logo span {
+            color: #00E676; /* ZeNaut Green */
+        }
+        .contact-link {
+            color: #A0A0A0;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+        .contact-link:hover {
+            color: #FFFFFF;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 100px 0 60px;
+            text-align: left;
+        }
+        .hero h1 {
+            font-size: 54px;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        .hero p {
+            font-size: 20px;
+            color: #A0A0A0;
+            max-width: 700px;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            display: inline-block;
+            background-color: #00E676;
+            color: #0F0F0F;
+            padding: 16px 32px;
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .cta-btn:hover {
+            background-color: #00C853;
+            transform: translateY(-2px);
+        }
+
+        /* Value Pillars */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            padding: 60px 0 100px;
+            border-top: 1px solid #333;
+            margin-top: 60px;
+        }
+        .feature-card h3 {
+            font-size: 18px;
+            color: #00E676;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            font-size: 14px;
+            color: #A0A0A0;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid #333;
+            color: #A0A0A0;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">ZeNaut<span>Lab</span></div>
+            <a href="mailto:performance@zenautlab.com" class="contact-link">performance@zenautlab.com</a>
+        </nav>
+
+        <div class="hero">
+            <h1>The Truth Engine for<br>Modern Fleet Performance.</h1>
+            <p>We deploy advanced algorithmic models to isolate hydrodynamic drag, verify CP compliance, and calculate exact EU ETS carbon liabilities. Turn raw telemetry into actionable executive intelligence.</p>
+            
+            <a href="https://demo.zenautlab.com" class="cta-btn">Enter Carbon Shield Demo →</a>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <h3>Financial Edge</h3>
+                <p>Quantify hull degradation in exact USD leakage per day. Forecast fuel capital destruction and optimize cleaning ROI instantly.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Technical Physics</h3>
+                <p>Isolate biological fouling from engine wear using Propeller Law mathematics and monotonic AI degradation curves.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Commercial Compliance</h3>
+                <p>Strict Charter Party performance auditing. Automatically detect legal overconsumption and weather-related CP breaches.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Voyage Execution</h3>
+                <p>Analyze Master routing decisions. Measure the exact fuel penalty of adverse ocean currents, wind resistance, and head seas.</p>
+            </div>
+        </div>
+
+        <footer>
+            &copy; 2026 ZeNaut Lab. All rights reserved. Operating globally.
+        </footer>
+    </div>
+
+</body>
+</html>
